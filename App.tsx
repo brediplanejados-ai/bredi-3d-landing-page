@@ -546,6 +546,24 @@ const Footer = () => {
           © 2024 BREDI 3D Projetos. Todos os direitos reservados.<br />
           Transformando sonhos em renders ultra-realistas.
         </p>
+
+        {/* Developer Credit */}
+        <a
+          href="https://wa.me/5515998148402"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-black/40 border border-white/5 rounded-full py-2 px-5 flex items-center gap-3 hover:scale-105 transition-transform duration-300 group"
+        >
+          <span className="text-gray-400 text-xs font-medium">Site desenvolvido por</span>
+          <div className="flex items-center gap-0.5" aria-label="Bredi">
+            <span className="text-white font-black text-lg tracking-tighter">b</span>
+            <span className="text-[#0066FF] font-black text-lg tracking-tighter">R</span>
+            <span className="text-[#FF0000] font-black text-lg tracking-tighter">edi</span>
+          </div>
+          <span className="text-primary/80 text-xs font-mono ml-1 group-hover:text-primary transition-colors">
+            (15) 99814-8402
+          </span>
+        </a>
       </div>
     </footer>
   );
